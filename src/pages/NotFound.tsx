@@ -13,13 +13,10 @@ const NotFound = () => {
         </p>
 
         <p className="mb-6 text-sm text-muted-foreground">
-          Caminho acessado: {location.pathname}
+          Caminho: {location.pathname}
         </p>
 
-        <a
-          href="#/"
-          className="inline-block rounded-lg bg-primary px-6 py-2 text-white transition hover:opacity-90"
-        >
+        <a href="#/" className="text-primary underline">
           Voltar para Home
         </a>
       </div>
